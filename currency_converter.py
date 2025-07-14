@@ -1,8 +1,10 @@
 import requests
+# NOTE: Replace "YOUR_API_KEY" with your actual ExchangeRate API key
 
-API_KEY = "3d959c536754dd83bbcfe788"  # Replace this with your real API key
+API_KEY = "YOUR_API_KEY"  # Replace this with your real API key
 # Do NOT hardcode USD here. Let the user choose it.
-BASE_URL = f"https://v6.exchangerate-api.com/v6/3d959c536754dd83bbcfe788/latest/"
+BASE_URL = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/" 
+
 
 def convert_currency(amount, from_currency, to_currency):
     url = BASE_URL + from_currency.upper()
