@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # NOTE: Replace with your actual API key from exchangerate-api.com
-API_KEY = "3d959c536754dd83bbcfe788"  
+API_KEY = "YOUR_API_KEY"  
 BASE_URL = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/"
 
 def convert_currency():
