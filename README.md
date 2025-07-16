@@ -54,7 +54,7 @@ https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{BASE_CURRENCY}
 
 ---
 
-🧑‍🎓 Author
+🧑‍🎓 Author:
 Lalith Choudhary
 🎓 B.Sc. Data Science & Data Analytics Engineering
 🌐 GitHub: https://github.com/Lalith00011011
