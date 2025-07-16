@@ -1,61 +1,60 @@
-# 💱 Currency Converter (CLI + GUI)
+# 💱 Currency Converter CLI Tool
 
-A simple Python-based currency converter tool that works in:
-- ✅ Command-Line Interface (CLI)
-- ✅ Graphical User Interface (GUI using Tkinter)
+A simple command-line tool that allows users to convert an amount from one currency to another using real-time exchange rates fetched from an external API.
 
 ---
 
-## 🚀 Features
+## 🔧 Features
 - Convert between any two currencies
-- Uses real-time exchange rates from ExchangeRate API
-- CLI: Fast, lightweight
-- GUI: User-friendly interface using Tkinter
-- Handles invalid inputs and API errors
+- Uses live exchange rates from ExchangeRate API
+- Command-line based interface
+- Handles invalid inputs and API errors gracefully
 
 ---
 
-## 🧠 Built With
+## 📦 Built With
 - Python
 - `requests` library
-- `tkinter` (built-in for GUI)
 - ExchangeRate API
 
 ---
 
-## 📁 Project Files
+## 🚀 How to Run
 
-| File Name                  | Description                       |
-|---------------------------|-----------------------------------|
-| `currency_converter.py`   | Command-line version              |
-| `currency_converter_gui.py` | GUI version using Tkinter        |
-| `README.md`               | Project overview                  |
+1. Clone the repository or download the Python file.
+2. Install the `requests` library if it's not already installed:
+pip install requests
+
+
+3. Run the script:
+python currency_converter.py
+
 
 ---
 
-## ▶️ How to Run the GUI Version
+## 🧪 Sample Output
 
-1. Make sure `requests` is installed:
+Enter amount: 50
+From currency (e.g., USD): USD
+To currency (e.g., INR): INR
 
-
-   pip install requests
-Replace "YOUR_API_KEY" with your real key in currency_converter_gui.py.
-
-Run the file:
-
-
-python currency_converter_gui.py
-Enter values in the GUI window and click Convert.
+💱 50 USD = 4173.50 INR
+(Exchange rate: 1 USD = 83.47 INR)
 
 
-Example:
+---
 
-🔗 API Reference
-ExchangeRate API: https://www.exchangerate-api.com
+## 🔗 API Reference
 
-Endpoint: https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{BASE_CURRENCY}
+- **ExchangeRate API**: [https://www.exchangerate-api.com](https://www.exchangerate-api.com)
+- **Endpoint Example**:  
+https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{BASE_CURRENCY}
 
-👨‍💻 Author
+
+
+---
+
+🧑‍🎓 Author
 Lalith Choudhary
-Undergraduate, B.Sc Data Science
-GitHub: https://github.com/Lalith00011011
+🎓 B.Sc. Data Science & Data Analytics Engineering
+🌐 GitHub: https://github.com/Lalith00011011
