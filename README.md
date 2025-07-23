@@ -53,6 +53,11 @@ https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{BASE_CURRENCY}
 
 
 ---
+## 🎥 Project Demo
+
+Watch the demo video here:  
+👉 [Click to View Demo](https://drive.google.com/drive/folders/1o5_uUYNrTOdx1R0awCGpToyjkLcfLmF2?usp=drive_link)
+
 
 🧑‍🎓 Author:
 Lalith Choudhary
